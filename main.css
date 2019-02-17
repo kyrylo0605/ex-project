@@ -1,0 +1,36 @@
+/**
+ * Fluid background, fixed content
+ */
+ 
+header, section, footer {
+	padding: 1em calc(50% - 450px);
+}
+
+footer {
+	background: #333;
+	color: white;
+}
+
+header {
+	background: orange;
+	color: white;
+}
+
+section + section {
+	background: #eee;
+}
+
+body {
+	margin: 0;
+	font: 100%/1.5 sans-serif;
+
+}
+
+h1 {
+	text-align: center;
+}
+
+p {
+	text-align: left;
+	font-size: 20px;
+}
