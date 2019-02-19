@@ -20,6 +20,10 @@ section + section {
 	background: moccasin;
 }
 
+#diff {
+
+	background: olive;
+}
 
 body {
 	margin: 0;
