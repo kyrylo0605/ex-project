@@ -20,9 +20,13 @@ section + section {
 	background: moccasin;
 }
 
-#diff {
+#diffcontainer {
 
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
 	background: olive;
+	padding: 1em calc(50% - 750px);
 }
 
 body {
