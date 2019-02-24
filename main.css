@@ -3,7 +3,7 @@
  */
  
 header, section, footer {
-	padding: 1em calc(50% - 450px);
+	padding: 1em calc(50% - 550px);
 }
 
 footer {
@@ -12,9 +12,14 @@ footer {
 }
 
 header {
-	background: orange;
+	background: #95927d;
 	color: white;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
 }
+
+
 
 section + section {
 	background: moccasin;
@@ -25,7 +30,7 @@ section + section {
 	display: flex;
 	flex-direction: row;
 	justify-content: center;
-	background: olive;
+	background: #cc99cc;
 	padding: 1em calc(50% - 750px);
 }
 
@@ -33,6 +38,13 @@ body {
 	margin: 0;
 	font: 100%/1.5 sans-serif;
 
+}
+
+div {
+
+	border: dotted 2px;
+	margin: 1em;
+	padding: .5em;
 }
 
 h1 {
