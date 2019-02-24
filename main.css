@@ -40,11 +40,12 @@ body {
 
 }
 
-div {
+header > div {
 
 	border: dotted 2px;
-	margin: 1em;
+	margin: .5em;
 	padding: .5em;
+	color: white;
 }
 
 h1 {
@@ -55,4 +56,46 @@ h1 {
 p {
 	text-align: left;
 	font-size: 20px;
+}
+
+.container {
+          display: -ms-grid;
+          display:     grid;
+          -ms-grid-columns: 50px 50px 50px;
+              grid-columns: 50px 50px 50px;
+          -ms-grid-rows: 50px 50px;
+              grid-rows: 50px 50px;
+        }
+        
+        .container .item1 {
+          -ms-grid-column: 1;
+              grid-column: 1;
+          -ms-grid-row: 1;
+              grid-row: 1;
+        }
+        
+        .container .item2 {
+          -ms-grid-column: 2;
+              grid-column: 2;
+          -ms-grid-row: 1;
+              grid-row: 1;
+        }
+        
+        .container .item3 {
+          -ms-grid-column: 1;
+              grid-column: 1;
+          -ms-grid-row: 2;
+              grid-row: 2;
+        }
+        
+        .container .item4 {
+          -ms-grid-column: 2;
+              grid-column: 2;
+          -ms-grid-row: 2;
+              grid-row: 2;
+        }
+
+div .container {
+
+	padding: 1em calc(50% - 950px);
 }
