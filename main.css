@@ -6,9 +6,21 @@ header, section, footer {
 	padding: 1em calc(50% - 550px);
 }
 
-footer {
-	background: #333;
-	color: white;
+.wrapper{
+
+	position:relative;
+	height: 600px;
+	background: lightblue;
+}
+
+.wrapper img {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin: auto;
+
 }
 
 header {
@@ -19,7 +31,10 @@ header {
 	justify-content: center;
 }
 
+section {
 
+	background: ;
+}
 
 section + section {
 	background: moccasin;
