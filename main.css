@@ -36,6 +36,7 @@ section {
 	background: ;
 }
 
+
 section + section {
 	background: moccasin;
 }
@@ -49,9 +50,15 @@ section + section {
 	padding: 1em calc(50% - 750px);
 }
 
+#images {
+
+	background: #FFA07A;
+}
+
 body {
 	margin: 0;
 	font: 100%/1.5 sans-serif;
+	font-family: 'Indie Flower', cursive;
 
 }
 
@@ -71,6 +78,15 @@ h1 {
 p {
 	text-align: left;
 	font-size: 20px;
+}
+
+svg {
+
+	position: static;
+	height: 15em;
+	width: 15em;
+	z-index: 100;
+	margin: 2em;
 }
 
 .container {
@@ -113,4 +129,10 @@ p {
 div .container {
 
 	padding: 1em calc(50% - 950px);
+}
+
+footer {
+
+	background: maroon;
+	color: white;
 }
