@@ -2,6 +2,9 @@
  * Fluid background, fixed content
  */
  
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script');
+
+
 header, section, footer {
 	padding: 1em calc(50% - 550px);
 }
@@ -43,7 +46,14 @@ section + section {
 	background: moccasin;
 	padding-left: 2em;
 	padding-right: 2em;
+	border-top-left-radius:20em 10em;
+	border-top-right-radius: 20em 10em;
+	border-bottom-right-radius:20em 10em;
+	border-bottom-left-radius:20em 10em;
+
 }
+
+
 
 #diffcontainer {
 
@@ -54,6 +64,10 @@ section + section {
 	padding: 1em calc(50% - 750px);
 	padding-left: 2em;
 	padding-right: 2em;
+	border-top-left-radius:20em 10em;
+	border-top-right-radius: 20em 10em;
+	border-bottom-right-radius:20em 10em;
+	border-bottom-left-radius:20em 10em;
 	
 }
 
@@ -66,13 +80,14 @@ body {
 	margin: 0;
 	font: 100%/1.5 sans-serif;
 	font-family: 'Dancing Script', cursive;
+	font-size: 2em;
+	background: olive;
 
 }
 
 header > div {
 
 	border: dotted 2px;
-	margin: .5em;
 	padding: .5em;
 	color: white;
 }
@@ -84,16 +99,19 @@ h1 {
 
 p {
 	text-align: left;
-	font-size: 20px;
+	font-size: 1em;
+	padding-left: .5em;
+	padding-right: .5em;
 }
 
 svg {
 
 	position: static;
+	left: 50%;
 	height: 15em;
 	width: 15em;
 	z-index: 100;
-	margin: 2em;
+	padding: 2em;
 }
 
 .container {
