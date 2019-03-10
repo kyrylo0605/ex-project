@@ -78,10 +78,10 @@ section + section {
 
 body {
 	margin: 0;
-	font: 100%/1.5 sans-serif;
+	font: 100%/1.2 sans-serif;
 	font-family: 'Dancing Script', cursive;
 	font-size: 2em;
-	background: olive;
+	background: darkkhaki;
 
 }
 
@@ -99,7 +99,7 @@ h1 {
 
 p {
 	text-align: left;
-	font-size: 1em;
+	font-size: 1.2em;
 	padding-left: .5em;
 	padding-right: .5em;
 }
@@ -115,6 +115,8 @@ svg {
 }
 
 .container {
+			background-image: url(mount-opasity.jpg);
+			color: black;
           display: -ms-grid;
           display:     grid;
           -ms-grid-columns: 50px 50px 50px;
@@ -158,7 +160,7 @@ div .container {
 
 footer {
 
-	background: maroon;
+	background: sandybrown;
 	color: white;
 	padding-left: 2em;
 	padding-right: 2em;
