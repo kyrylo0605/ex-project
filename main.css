@@ -34,11 +34,15 @@ header {
 section {
 
 	background: ;
+	padding-left: 2em;
+	padding-right: 2em;
 }
 
 
 section + section {
 	background: moccasin;
+	padding-left: 2em;
+	padding-right: 2em;
 }
 
 #diffcontainer {
@@ -48,6 +52,9 @@ section + section {
 	justify-content: center;
 	background: #cc99cc;
 	padding: 1em calc(50% - 750px);
+	padding-left: 2em;
+	padding-right: 2em;
+	
 }
 
 #images {
@@ -58,7 +65,7 @@ section + section {
 body {
 	margin: 0;
 	font: 100%/1.5 sans-serif;
-	font-family: 'Indie Flower', cursive;
+	font-family: 'Dancing Script', cursive;
 
 }
 
@@ -135,4 +142,6 @@ footer {
 
 	background: maroon;
 	color: white;
+	padding-left: 2em;
+	padding-right: 2em;
 }
