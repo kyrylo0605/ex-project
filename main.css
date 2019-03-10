@@ -115,8 +115,8 @@ svg {
 }
 
 .container {
-			background-image: url(mount-opasity.jpg);
-			color: black;
+			background-image: url(mount-no-opasity.jpg);
+			color: white;
           display: -ms-grid;
           display:     grid;
           -ms-grid-columns: 50px 50px 50px;
