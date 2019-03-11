@@ -94,6 +94,8 @@ header > div {
 
 h1 {
 	text-align: center;
+    padding-left: .5em;
+	padding-right: .5em;
 }
 
 
@@ -106,10 +108,10 @@ p {
 
 svg {
 
-	position: static;
+	position: relative;
 	left: 50%;
-	height: 15em;
-	width: 15em;
+	height: 10em;
+	width: 10em;
 	z-index: 100;
 	padding: 2em;
 }
