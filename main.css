@@ -87,7 +87,6 @@ body {
 
 header > div {
 
-	border: dotted 2px;
 	padding: .5em;
 	color: white;
 }
@@ -115,6 +114,58 @@ svg {
 	z-index: 100;
 	padding: 2em;
 }
+
+
+
+/* blocks with slant line */
+
+.hero {
+    background: #0A7A99;
+    color: #fff;
+    position: relative;
+    z-index: 1;
+    margin-top: -1px;
+    margin-bottom: 200px;
+    padding-top: 80px;
+}
+
+  .hero:after {
+    background: inherit;
+    bottom: -140px;
+    content: '';
+    display: block;
+    height: 50%;
+    left: 0;
+    position: absolute;
+    right: 0;
+    transform: skewY(4deg);
+    transform-origin: 100%;
+    z-index: -1;
+  }
+
+h1 {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  text-align: center;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/* Fix/hack for 1080p+ displays */
+@media screen and (min-width: 1921px) {
+    .hero {
+      padding-bottom: 5px;
+      margin-bottom: 240px !important;
+    }
+
+    .hero:after {
+      bottom: -220px !important;
+  }
+}
+
 
 .container {
 			background-image: url(mount-no-opasity.jpg);
