@@ -10,13 +10,15 @@ header, section, footer {
 }
 
 .wrapper{
-
+	background-image: url(assets/images/nihal-demirci-unsplash-1920.jpg) !important;
+	background-size: cover;
 	position:relative;
 	height: 600px;
-	background: lightblue;
 }
 
 .wrapper img {
+	
+	background: rgba(255,255,224,.5);
 	position: absolute;
 	top: 0;
 	left: 0;
@@ -98,9 +100,12 @@ body {
 
 header > div {
 
+
 	padding: .5em;
 	color: white;
 }
+
+
 
 h1 {
 	text-align: center;
@@ -168,6 +173,7 @@ body {
 /* Fix/hack for 1080p+ displays */
 @media screen and (min-width: 1921px) {
     .hero {
+
       padding-bottom: 5px;
       margin-bottom: 240px !important;
     }
@@ -177,15 +183,21 @@ body {
   }
 }
 
+#images {
+
+	background: khaki;
+}
+
 
 .container {
-			background-image: url(mount-no-opasity.jpg);
+			background-image: url(assets/images/nihal-demirci-unsplash-1920.jpg);
+			background-size: contain;
 			color: white;
-          display: -ms-grid;
-          display:     grid;
-          -ms-grid-columns: 50px 50px 50px;
+          	display: -ms-grid;
+          	display:     grid;
+          	-ms-grid-columns: 50px 50px 50px;
               grid-columns: 50px 50px 50px;
-          -ms-grid-rows: 50px 50px;
+          	-ms-grid-rows: 50px 50px;
               grid-rows: 50px 50px;
         }
         
@@ -225,6 +237,7 @@ div .container {
 footer {
 
 	background: sandybrown;
+	background-image: url(assets/images/nihal-demirci-unsplash-1920.jpg);
 	color: white;
 	padding-left: 2em;
 	padding-right: 2em;
