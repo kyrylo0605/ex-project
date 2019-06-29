@@ -10,8 +10,8 @@ header, section, footer {
 }
 
 .wrapper{
-	background-image: url(assets/images/nihal-demirci-unsplash-1920.jpg) !important;
-	background-size: cover;
+	background-image: url(assets/images/zoltan-tasi-bike-unsplash.jpg) !important;
+	background-size: contain;
 	position:relative;
 	height: 600px;
 }
@@ -70,10 +70,12 @@ section + section {
 
 #diffcontainer {
 
+	background-image: url(assets/images/zoltan-tasi-bike-unsplash.jpg) !important;
+	background-size: contain;
 	display: flex;
 	flex-direction: row;
 	justify-content: center;
-	background: #cc99cc;
+	/*background: #cc99cc;*/
 	padding: 1em calc(50% - 750px);
 	padding-left: 2em;
 	padding-right: 2em;
@@ -81,6 +83,7 @@ section + section {
 	border-top-right-radius: 20em 10em;
 	border-bottom-right-radius:20em 10em;
 	border-bottom-left-radius:20em 10em;
+	color: #fff;
 	
 }
 
@@ -190,7 +193,7 @@ body {
 
 
 .container {
-			background-image: url(assets/images/nihal-demirci-unsplash-1920.jpg);
+			background-image: url(assets/images/zoltan-tasi-bike-unsplash.jpg);
 			background-size: contain;
 			color: white;
           	display: -ms-grid;
@@ -236,8 +239,8 @@ div .container {
 
 footer {
 
-	background: sandybrown;
-	background-image: url(assets/images/nihal-demirci-unsplash-1920.jpg);
+	background: sandybrown !important; 
+	background-image: url(assets/images/zoltan-tasi-bike-unsplash.jpg);
 	color: white;
 	padding-left: 2em;
 	padding-right: 2em;
