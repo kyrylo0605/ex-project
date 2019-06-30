@@ -5,18 +5,20 @@
 @import url('https://fonts.googleapis.com/css?family=Dancing+Script');
 
 
+
+
 header, section, footer {
 	padding: 1em calc(50% - 550px);
 }
 
-.wrapper{
+.wrapper1{
 	background-image: url(assets/images/zoltan-tasi-bike-unsplash.jpg) !important;
 	background-size: contain;
 	position:relative;
 	height: 600px;
 }
 
-.wrapper img {
+.wrapper1 img {
 	
 	background: rgba(255,255,224,.5);
 	position: absolute;
@@ -49,7 +51,7 @@ header {
 
 section {
 
-	background: ;
+	background: inherit; ;
 	padding-left: 2em;
 	padding-right: 2em;
 }
@@ -236,6 +238,60 @@ div .container {
 
 	padding: 1em calc(50% - 950px);
 }
+
+
+.wrapper {
+
+		margin: 2vw;
+		display: grid;
+    	grid-gap: 20px;
+		grid-template-columns: repeat(5, [col] 18% ) ;
+		grid-template-rows: repeat(3, [row] auto  );
+		background-color: #fff;
+		color: #444;
+
+	}
+
+	.box {
+		background-color: #444;
+		color: #fff;
+		border-radius: 5px;
+		padding: 20px;
+		font-size: 150%;
+		z-index:10;
+
+	}
+
+	.a {
+		grid-column: col / span  2;
+		grid-row: row ;
+	}
+	.b {
+		grid-column: col 3 / span  3 ;
+		grid-row: row ;
+	}
+	.c {
+		grid-column: col ;
+		grid-row: row 2 ;
+	}
+	.d {
+		grid-column: col 2 / span  3 ;
+		grid-row: row 2 ;
+	}
+
+	.e {
+		grid-column: col / span  5;
+		grid-row: row 3;
+	}
+
+	.f {
+		grid-column: col 3 / span 3;
+		grid-row: row 2  ;
+		background-color: rgba(49,121,207, 0.5);
+		z-index: 20;
+	}
+
+
 
 footer {
 
