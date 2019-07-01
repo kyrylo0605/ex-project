@@ -33,21 +33,125 @@ header, section, footer {
 header {
 	background: #95927d;
 	color: white;
-	display: flex;
+	/*display: flex;
 	flex-direction: row;
-	justify-content: center;
+	justify-content: center;*/
+	display: grid;
+	grid-gap: 5%;
+	grid-template-columns: repeat(4, [col] auto ) ;
+	grid-template-rows: repeat(1, [row] auto );
+
 }
 
-@media screen and (max-width: 720px) {
+
+.k {
+
+	display: grid;
+	grid-gap: 50px;
+	grid-column: 1;
+	grid-row: 1;
 
 
-	header > div {
-		
-		display: flex;
-		flex-direction: column;
-		
+}
+
+.l {
+
+	display: grid;
+	grid-column: 2;
+	grid-row: 1;
+	grid-gap: 50px;
+
+
+}
+
+.m {
+
+	display: grid;
+	grid-column: 3;
+	grid-row: 1;
+	grid-gap: 50px;
+
+
+}
+
+.n {
+
+	display: grid;
+	grid-column: 4;
+	grid-row: 1;
+	grid-gap: 50px;
+
+
+}
+
+@media screen and (max-width: 1100px) {
+
+
+	header {
+
+	display: grid;
+	grid-gap: 5%;
+	grid-template-columns: repeat(2, [col] auto ) ;
+	grid-template-rows: repeat(2, [row] auto );
+
 	}
+
+	img {
+
+		position: relative;
+		justify-content: center !important;
+
+	}
+
+
+	.k {
+
+	display: grid;
+	grid-gap: 50px;
+	grid-column: 1;
+	grid-row: 1;
+
+
 }
+
+.l {
+
+	display: grid;
+	grid-column: 2;
+	grid-row: 1;
+	grid-gap: 50px;
+
+
+}
+
+.m {
+
+	display: grid;
+	grid-column: 1;
+	grid-row: 2;
+	grid-gap: 50px;
+
+
+}
+
+.n {
+
+	display: grid;
+	grid-column: 2;
+	grid-row: 2;
+	grid-gap: 50px;
+
+
+	}
+
+}
+
+
+header > img {
+
+	border-radius: 10px !important;
+}
+
 
 section {
 
@@ -241,12 +345,13 @@ div .container {
 
 
 .wrapper {
-
+		position: relative;
+		background: inherit !important;
 		margin: 2vw;
 		display: grid;
     	grid-gap: 20px;
 		grid-template-columns: repeat(5, [col] 18% ) ;
-		grid-template-rows: repeat(3, [row] auto  );
+		grid-template-rows: repeat(3, [row] auto );
 		background-color: #fff;
 		color: #444;
 
@@ -255,9 +360,9 @@ div .container {
 	.box {
 		background-color: #444;
 		color: #fff;
-		border-radius: 5px;
+		border-radius: 20px;
 		padding: 20px;
-		font-size: 150%;
+		font-size: 90%;
 		z-index:10;
 
 	}
