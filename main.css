@@ -424,6 +424,10 @@ div .container {
 	.b {
 		grid-column: col 3 / span  3 ;
 		grid-row: row ;
+		background-color: rgba(49,121,207,.5);
+		color: #000000;
+		margin: 2em;
+		padding:5vw !important;
 	}
 	.c {
 		grid-column: col ;
@@ -446,7 +450,10 @@ div .container {
 		z-index: 20;
 	}
 
-
+ul {
+	display: inherit;
+	list-style-type: circle;
+}
 
 footer {
 
