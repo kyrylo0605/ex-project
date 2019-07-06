@@ -30,6 +30,11 @@ header, section, footer {
 
 }
 
+header img {
+
+	border-radius: 50%;
+}
+
 header {
 
 	background: #95927d;
@@ -50,6 +55,7 @@ header {
 	grid-gap: 50px;
 	grid-column: 1;
 	grid-row: 1;
+	margin:10px 2%;
 
 
 }
@@ -95,6 +101,7 @@ header {
 
 	img {
 
+		
 		position: relative;
 		justify-content: center !important;
 
@@ -453,6 +460,12 @@ div .container {
 ul {
 	display: inherit;
 	list-style-type: circle;
+
+}
+
+ol {
+	display: inherit;
+	
 }
 
 footer {
