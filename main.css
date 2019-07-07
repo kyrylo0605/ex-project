@@ -20,8 +20,10 @@ p {
 .wrapper1{
 	background-image: url(assets/images/stone-texture-1920.jpg) !important;
 	background-size: contain;
+	background-repeat: repeat;
 	position:relative;
-	height: 600px;
+	width: 80vw;
+	height: 50vh;
 }
 
 .wrapper1 img {
@@ -468,8 +470,9 @@ div .container {
 		grid-row: row ;
 		background-color: rgba(49,121,207,.5);
 		color: #000000;
-		margin: 2em;
+		margin: 2vw;
 		padding:5vw !important;
+		font-size: inherit;
 	}
 	.c {
 		grid-column: col ;
