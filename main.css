@@ -18,7 +18,7 @@ p {
 }
 
 .wrapper1{
-	background-image: url(assets/images/zoltan-tasi-bike-unsplash.jpg) !important;
+	background-image: url(assets/images/stone-texture-1920.jpg) !important;
 	background-size: contain;
 	position:relative;
 	height: 600px;
@@ -260,9 +260,9 @@ section + section {
 
 #diffcontainer {
 
-	background-image: url(stone-texture-1920.jpg) !important;
+	background-image: url(assets/images/stone-texture-1920.jpg) !important;
 	background-size: contain;
-	background-repeat: no-repeat; 
+	background-repeat: repeat; 
 	display: flex;
 	flex-direction: row;
 	justify-content: center;
@@ -360,6 +360,12 @@ h1 {
   text-align: center;
 }
 
+.hero h1 {
+  padding-top: 5vw;
+  padding-bottom: 5vw;
+  text-align: center;
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -385,7 +391,7 @@ body {
 
 
 .container {
-			background-image: url(assets/images/zoltan-tasi-bike-unsplash.jpg);
+			background-image: url(assets/images/stone-texture-1920.jpg);
 			background-size: contain;
 			color: white;
           	display: -ms-grid;
@@ -487,21 +493,19 @@ div .container {
 	}
 
 ul {
-	display: inherit;
+	
 	list-style-type: circle;
 
 }
 
-ol {
-	display: inherit;
-	
-}
+
 
 footer {
 
 	background: sandybrown !important; 
-	background-image: url(assets/images/zoltan-tasi-bike-unsplash.jpg);
+	background-image: url(assets/images/stone-texture-1920.jpg);
 	color: white;
 	padding-left: 2em;
 	padding-right: 2em;
+	margin-bottom: auto; 
 }
