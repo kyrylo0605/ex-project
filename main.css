@@ -320,8 +320,8 @@ svg {
 
 	position: relative;
 	float: left;
-	height: 10em;
-	width: 10em;
+	height: 20vw;
+	width: 20vw;
 	z-index: 100;
 	padding: 1em;
 }
