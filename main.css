@@ -1,7 +1,7 @@
 /**
  * Fluid background, fixed content
  */
- 
+
 @import url('https://fonts.googleapis.com/css?family=Dancing+Script');
 
 
@@ -17,17 +17,33 @@ p {
 	margin-bottom: 2em;
 }
 
+#overl {
+
+	height: 1400px;
+	background:lightyellow;
+}
+
+#overl svg {
+
+	position: relative;
+	float: right;
+}
+
+#overl svg#Layer_2 {
+
+	position: relative;
+	float: left;
+}
 .wrapper1{
 	background-image: url(assets/images/stone-texture-1920.jpg) !important;
 	background-size: contain;
 	background-repeat: repeat;
 	position:relative;
-	width: 80vw;
-	height: 50vh;
+	height: 600px;
 }
 
 .wrapper1 img {
-	
+
 	background: rgba(255,255,224,.5);
 	position: absolute;
 	top: 0;
@@ -40,7 +56,7 @@ p {
 
 header img {
 
-	border-radius: 50%;	 
+	border-radius: 50%;
 
 }
 
@@ -116,7 +132,7 @@ header div {
 
 	img {
 
-		
+
 		position: relative;
 		justify-content: center !important;
 
@@ -234,7 +250,7 @@ header > img {
 
 	position: relative;
 	border-radius:50% !important;
-	
+
 }
 
 
@@ -264,7 +280,7 @@ section + section {
 
 	background-image: url(assets/images/stone-texture-1920.jpg) !important;
 	background-size: contain;
-	background-repeat: repeat; 
+	background-repeat: repeat;
 	display: flex;
 	flex-direction: row;
 	justify-content: center;
@@ -277,7 +293,7 @@ section + section {
 	border-bottom-right-radius:20em 10em;
 	border-bottom-left-radius:20em 10em;
 	color: #fff;
-	
+
 }
 
 #images {
@@ -403,28 +419,28 @@ body {
           	-ms-grid-rows: 50px 50px;
               grid-rows: 50px 50px;
         }
-        
+
         .container .item1 {
           -ms-grid-column: 1;
               grid-column: 1;
           -ms-grid-row: 1;
               grid-row: 1;
         }
-        
+
         .container .item2 {
           -ms-grid-column: 2;
               grid-column: 2;
           -ms-grid-row: 1;
               grid-row: 1;
         }
-        
+
         .container .item3 {
           -ms-grid-column: 1;
               grid-column: 1;
           -ms-grid-row: 2;
               grid-row: 2;
         }
-        
+
         .container .item4 {
           -ms-grid-column: 2;
               grid-column: 2;
@@ -496,7 +512,7 @@ div .container {
 	}
 
 ul {
-	
+
 	list-style-type: circle;
 
 }
@@ -505,10 +521,10 @@ ul {
 
 footer {
 
-	background: sandybrown !important; 
+	background: sandybrown !important;
 	background-image: url(assets/images/stone-texture-1920.jpg);
 	color: white;
 	padding-left: 2em;
 	padding-right: 2em;
-	margin-bottom: auto; 
+	margin-bottom: auto;
 }
