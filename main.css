@@ -21,7 +21,13 @@ p {
 header {
 
 	height: 80px;
-	background:olive;
+	background:papayawhip;
+}
+
+#carusel {
+
+	background: ivory;
+	border-radius: 10px !important;
 }
 
 #house-color{
@@ -87,7 +93,7 @@ header {
 
 #lilwayne {
 
-	background: olive;
+	background: palegreen;
 	color: white;
 
 	display: grid;
@@ -102,7 +108,7 @@ header {
 #lilwayne div {
 
 	background-color: bisque;
-	border-radius: 2vw;
+	border-radius: 1vh;
 }
 
 
