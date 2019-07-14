@@ -33,6 +33,8 @@ header {
 #house-color{
 
 	background:khaki;
+	font-family: Calibri, sans-serif;
+	font-weight: 500 !important;
 
 }
 
@@ -52,6 +54,7 @@ header {
 
 	height: auto;
 	background:lightyellow;
+	font-weight: 500;
 }
 
 #overl svg {
@@ -100,9 +103,14 @@ header {
 	grid-gap: 5%;
 	grid-template-columns: repeat(4, [col] auto );
 	grid-template-rows: repeat(1, [row] auto );
-	height: 10em;
+	height: auto;
     position: relative
 
+}
+
+section#lilwayne {
+
+	border-radius: 4vw;
 }
 
 #lilwayne div {
@@ -339,7 +347,7 @@ body {
 	font: 100%/1.2 sans-serif;
 	font-family: 'Dancing Script', cursive;
 	font-size: 2em;
-	background: salmon;
+	background: lightsalmon;
 
 }
 
@@ -382,6 +390,7 @@ svg {
 
 .hero {
     background: #0A7A99;
+    font-family: Montserrat, sans-serif;
     color: #fff;
     position: relative;
     z-index: 1;
@@ -412,7 +421,7 @@ h1 {
 
 .hero h1 {
   padding-top: 5vw;
-  padding-bottom: 5vw;
+  padding-bottom: 10vw;
   text-align: center;
 }
 
