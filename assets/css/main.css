@@ -69,7 +69,7 @@ header {
 	float: left;
 }
 .wrapper1{
-	background-image: url(assets/images/stone-texture-1920.jpg) !important;
+	background-image: url(../images/stone-texture-1920.jpg) !important;
 	background-size: contain;
 	background-repeat: repeat;
 	position:relative;
@@ -323,7 +323,7 @@ section + section {
 
 #diffcontainer {
 	/*background: #cc99cc;*/
-	background-image: url(assets/images/berries1.jpg) repeat;
+	background-image: url(../images/berries1.jpg) repeat;
 	background-size:;
 	display: flex;
 	flex-direction: row;
@@ -350,10 +350,13 @@ body {
 	margin: 0;
 	font: 100%/1.2 sans-serif;
 	font-family: 'Dancing Script', cursive;
-	font-size: 2em;
+	font-size: 1.8rem !important;
 	background: lightsalmon;
 
 }
+
+
+
 
 #lilwayne > div {
 
@@ -455,7 +458,7 @@ body {
 
 
 .contain {
-			background-image: url(assets/images/berries1.jpg);
+			background-image: url(../images/berries1.jpg);
 			background-size: cover;
 			color: #000;
           	display: -ms-grid;
@@ -568,7 +571,7 @@ ul {
 footer {
 
 	background: sandybrown !important;
-	background-image: url(assets/images/stone-texture-1920.jpg);
+	background-image: url(../images/stone-texture-1920.jpg);
 	color: white;
 	padding-left: 2em;
 	padding-right: 2em;
