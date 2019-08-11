@@ -560,6 +560,56 @@ div .contain {
 		z-index: 20;
 	}
 
+
+@media (max-width: 800px) {
+
+	.box {
+		background-color: #444;
+		color: #fff;
+		border-radius: 20px;
+		padding: 20px;
+		font-size: 120% !important;
+		z-index:10;
+	}
+
+
+
+	.a {
+		grid-column: col / span  5 !important;
+		grid-row: row 1!important;
+
+	}
+	.b {
+		grid-column: col / span  5 !important;
+		grid-row: row 2!important;
+		background-color: rgba(49,121,207,.5);
+		color: #000000;
+		margin: 2vw;
+		padding:5vw !important;
+		font-size: inherit;
+	}
+	.c {
+		grid-column: col / span 5 !important;
+		grid-row: row 3 !important;
+	}
+	.d {
+		grid-column: col  / span  5 !important;
+		grid-row: row 4 !important;
+	}
+
+	.e {
+		grid-column: col / span  5!important;
+		grid-row: row 5!important;
+	}
+
+	.f {
+		grid-column: col  / span 6!important;
+		grid-row: row 6 !important;
+		background-color: rgba(49,121,207, 0.5);
+		z-index: 20;
+	}
+}
+
 ul {
 
 	list-style-type: circle;
