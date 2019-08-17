@@ -567,7 +567,7 @@ div .contain {
 
 	body {
 
-		font-size: 70%;
+		font-size: 85%;
 
 	}
 
@@ -592,8 +592,8 @@ div .contain {
 		grid-row: row 2!important;
 		background-color: rgba(49,121,207,.5);
 		color: #000000;
-		margin: 2vw;
-		padding:5vw !important;
+		/*margin: 2vw;
+		padding:5vw !important;*/
 		font-size: inherit;
 	}
 	.c {
