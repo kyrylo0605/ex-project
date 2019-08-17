@@ -565,6 +565,12 @@ div .contain {
 
 @media (max-width: 600px) {
 
+	body {
+
+		font-size: 70%;
+
+	}
+
 	.box {
 		background-color: #444;
 		color: #fff;
