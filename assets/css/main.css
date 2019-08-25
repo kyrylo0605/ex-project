@@ -20,14 +20,25 @@ p {
 
 header {
 
-	height: 80px;
+	height: 12vh;
 	background:papayawhip;
+}
+
+header div svg {
+
+	float: right;
+	z-index: 20;
+}
+
+#i-music {
+	position: absolute;
+	width: 32px;
 }
 
 #carusel {
 
 	background: ivory;
-	border-radius: 10px !important;
+	border-radius: 30px !important;
 }
 
 #house-color{
@@ -35,6 +46,7 @@ header {
 	background:khaki;
 	font-family: Calibri, sans-serif;
 	font-weight: 500 !important;
+	font-size:80% !important; 
 
 }
 
@@ -345,6 +357,7 @@ section + section {
 #images {
 
 	background: #FFA07A;
+	font-family:  'Concert One', sans-serif;
 
 }
 
