@@ -453,7 +453,8 @@ h1 {
 /* block with slant line */
 
 .hero1 {
-    background: #0A7A99;
+    
+    background-image: url(../images/marjan_blan-web9.jpg) !important;
     font-family: 'Chilanka', cursive;
     color: #fff;
     position: relative;
@@ -485,15 +486,17 @@ h1 {
 }
 
 .hero1 h1 {
-  padding-top: 5vw;
-  padding-bottom: 10vw;
+  margin-top: 5vw;
+  margin-bottom: 10vw;
   text-align: center;
+  background: rgba(0,0,0,.5);
 }
 
 .hero1 p {
   padding-left: 5vw;
   padding-right: 5vw;
   text-align: center;
+  background: rgba(0,0,0,.5);
 }
 
 body {
@@ -563,6 +566,12 @@ body {
 div .contain {
 
 	padding: 1em calc(50% - 950px);
+}
+
+ .contain p {
+
+	background: rgba(255,255,255,.6) !important;
+	z-index: 20;
 }
 
 /*
