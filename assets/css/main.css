@@ -3,6 +3,7 @@
  */
 
 @import url('https://fonts.googleapis.com/css?family=Dancing+Script');
+@import url('https://fonts.googleapis.com/css?family=Chilanka|Permanent+Marker&display=swap');
 
 
 
@@ -44,7 +45,7 @@ header div svg {
 #house-color{
 
 	background:khaki;
-	font-family: Calibri, sans-serif;
+	font-family: 'Permanent Marker', cursive;
 	font-weight: 500 !important;
 	font-size:80% !important; 
 
@@ -418,7 +419,7 @@ svg {
     position: relative;
     z-index: 1;
     margin-top: -1px;
-    margin-bottom: 200px;
+    margin-bottom: 150px;
     padding-top: 80px;
 }
 
@@ -445,6 +446,53 @@ h1 {
 .hero h1 {
   padding-top: 5vw;
   padding-bottom: 10vw;
+  text-align: center;
+}
+
+
+/* block with slant line */
+
+.hero1 {
+    background: #0A7A99;
+    font-family: 'Chilanka', cursive;
+    color: #fff;
+    position: relative;
+    z-index: 1;
+    margin-top: -1px;
+    margin-bottom: 250px;
+    padding-top: 80px;
+    padding-bottom: 150px;
+}
+
+  .hero1:after {
+    background: inherit;
+    bottom: -140px;
+    content: '';
+    display: block;
+    height: 50%;
+    left: 0;
+    position: absolute;
+    right: 0;
+    transform: skewY(-3deg);
+    transform-origin: 100%;
+    z-index: -1;
+  }
+
+h1 {
+  padding-top: 2vw;
+  padding-bottom: 2vw;
+  text-align: center;
+}
+
+.hero1 h1 {
+  padding-top: 5vw;
+  padding-bottom: 10vw;
+  text-align: center;
+}
+
+.hero1 p {
+  padding-left: 5vw;
+  padding-right: 5vw;
   text-align: center;
 }
 
@@ -517,7 +565,7 @@ div .contain {
 	padding: 1em calc(50% - 950px);
 }
 
-
+/*
 .wrapper {
 		position: relative;
 		background: inherit !important;
@@ -605,8 +653,6 @@ div .contain {
 		grid-row: row 2!important;
 		background-color: rgba(49,121,207,.5);
 		color: #000000;
-		/*margin: 2vw;
-		padding:5vw !important;*/
 		font-size: inherit;
 	}
 	.c {
@@ -630,6 +676,8 @@ div .contain {
 		z-index: 20;
 	}
 }
+
+*/
 
 ul {
 
