@@ -21,7 +21,7 @@ p {
 
 header {
 
-	height: 12vh;
+	height: 12%;
 	background:papayawhip;
 }
 
@@ -44,10 +44,11 @@ header div svg {
 
 #house-color{
 
-	background:khaki;
+	background:url(../images/colin-watts-stone-08-opasity.jpg);
 	font-family: 'Permanent Marker', cursive;
 	font-weight: 500 !important;
 	font-size:80% !important; 
+	color: #fff;
 
 }
 
@@ -56,6 +57,16 @@ header div svg {
 	float: right;
 
 }
+
+/* add media types for 1920 screens */
+
+#house-color p {
+
+	margin-bottom: 300px;
+}
+
+
+
 
 #hi {
 
@@ -82,12 +93,12 @@ header div svg {
 	float: left;
 }
 .wrapper1{
-	background-image: url(../images/stone-texture-1920.jpg) !important;
-	background-size: contain;
-	background-repeat: repeat;
+	background-image: url(../images/sergii-gulenok-yacht.jpg) !important;
+	background-size: cover;
+	background-repeat: no-repeat;
 	position:relative;
 	border-radius: 1vh;
-	height: 600px;
+	height: 800px;
 }
 
 .not-radius {
@@ -338,7 +349,7 @@ section + section {
 
 #diffcontainer {
 	/*background: #cc99cc;*/
-	background-image: url(../images/berries1.jpg) repeat;
+	background-image: url(../images/ryu-wong-web-opasity-06.jpg) !important;
 	background-size:;
 	display: flex;
 	flex-direction: row;
@@ -350,10 +361,12 @@ section + section {
 	border-top-right-radius: 20em 10em;
 	border-bottom-right-radius:20em 10em;
 	border-bottom-left-radius:20em 10em;
-	color: #000;
+	color: black;
 	z-index: 10;
 
 }
+
+
 
 #images {
 
@@ -413,14 +426,15 @@ svg {
 /* block with slant line */
 
 .hero {
-    background: #0A7A99;
+    background-image: url(../images/stone-texture-1920.jpg) !important;
     font-family: Montserrat, sans-serif;
     color: #fff;
     position: relative;
     z-index: 1;
     margin-top: -1px;
-    margin-bottom: 150px;
+    margin-bottom: 250px;
     padding-top: 80px;
+    padding-bottom: 200px;
 }
 
   .hero:after {
@@ -432,7 +446,7 @@ svg {
     left: 0;
     position: absolute;
     right: 0;
-    transform: skewY(4deg);
+    transform: skewY(6deg);
     transform-origin: 100%;
     z-index: -1;
   }
@@ -444,7 +458,7 @@ h1 {
 }
 
 .hero h1 {
-  padding-top: 5vw;
+  padding-top: 0;
   padding-bottom: 10vw;
   text-align: center;
 }
@@ -463,6 +477,7 @@ h1 {
     margin-bottom: 250px;
     padding-top: 80px;
     padding-bottom: 150px;
+    margin-bottom: 300px;
 }
 
   .hero1:after {
@@ -474,7 +489,7 @@ h1 {
     left: 0;
     position: absolute;
     right: 0;
-    transform: skewY(-3deg);
+    transform: skewY(-6deg);
     transform-origin: 100%;
     z-index: -1;
   }
@@ -699,7 +714,8 @@ ul {
 footer {
 
 	background: sandybrown !important;
-	background-image: url(../images/stone-texture-1920.jpg);
+	background-image: url(../images/sergii-gulenok-yacht.jpg);
+	/*background-image: url(../images/stone-texture-1920.jpg);*/
 	color: white;
 	padding-left: 2em;
 	padding-right: 2em;
