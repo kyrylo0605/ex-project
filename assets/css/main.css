@@ -31,6 +31,11 @@ header div svg {
 	z-index: 20;
 }
 
+nav {
+
+	font-size: 160% !important;
+}
+
 #i-music {
 	position: absolute;
 	width: 32px;
@@ -42,9 +47,12 @@ header div svg {
 	border-radius: 30px !important;
 }
 
+
+
 #house-color{
 
 	background:url(../images/colin-watts-stone-08-opasity.jpg);
+	mask-image: linear-gradient(to right; white, transparent) !important;
 	font-family: 'Permanent Marker', cursive;
 	font-weight: 500 !important;
 	font-size:80% !important; 
@@ -58,14 +66,22 @@ header div svg {
 
 }
 
+
+
 /* add media types for 1920 screens */
 
 #house-color p {
 
-	margin-bottom: 300px;
+	margin-bottom: 10vw;
+	background: linear-gradient(0.25turn, #3f87a6, #ebf8e1, #f69d3c);
+	background: linear-gradient(to right, rgba(62,59,68,.6), rgba(255,0,0,0));
+	
 }
 
+#house{
 
+	z-index: 20;
+}
 
 
 #hi {
@@ -96,6 +112,11 @@ header div svg {
 	background-image: url(../images/sergii-gulenok-yacht.jpg) !important;
 	background-size: cover;
 	background-repeat: no-repeat;
+	/* mask-image: linear-gradient(to top right, transparent 49.5%, white 50.5%), linear-gradient(to top
+	left, transparent 49.5%, white 50.5%), linear-gradient(white, white) !important;
+	mask-size: 75% 25%, 25% 25%, 100% 75%;
+	mask-position: bottom left, bottom right, top left;
+	mask-repeat: no-repeat; */
 	position:relative;
 	border-radius: 1vh;
 	height: 800px;
