@@ -21,9 +21,19 @@ p {
 
 header {
 
-	height: 12%;
-	background:papayawhip;
+	height: auto;
+	background:lightgreen;
 }
+
+@media all (min-width: 320px) {
+
+	header {
+
+		height:20%;
+		background:lightgreen;
+	}
+
+}	
 
 header div svg {
 
@@ -31,9 +41,19 @@ header div svg {
 	z-index: 20;
 }
 
+header li {
+
+	padding-left: 5%;
+}
+
 nav {
 
 	font-size: 160% !important;
+}
+
+nav form {
+
+	padding-left: 10%;
 }
 
 #i-music {
@@ -728,6 +748,13 @@ ul {
 
 	list-style-type: circle;
 
+}
+
+.brandbar img {
+
+	width: 35px;
+	height: 35px;
+	
 }
 
 
