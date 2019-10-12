@@ -33,7 +33,7 @@ header {
 		background:lightgreen;
 	}
 
-}	
+}
 
 header div svg {
 
@@ -75,7 +75,7 @@ nav form {
 	mask-image: linear-gradient(to right; white, transparent) !important;
 	font-family: 'Permanent Marker', cursive;
 	font-weight: 500 !important;
-	font-size:80% !important; 
+	font-size:80% !important;
 	color: #fff;
 
 }
@@ -95,7 +95,7 @@ nav form {
 	margin-bottom: 10vw;
 	background: linear-gradient(0.25turn, #3f87a6, #ebf8e1, #f69d3c);
 	background: linear-gradient(to right, rgba(62,59,68,.6), rgba(255,0,0,0));
-	
+
 }
 
 #house{
@@ -178,6 +178,17 @@ nav form {
     position: relative;
     padding-bottom: 5% !important;
 
+}
+
+
+#brandbar {
+
+	display: grid;
+	grid-gap: 5%;
+	grid-template-columns: repeat(12, [col] auto );
+	grid-template-rows: repeat(12, [row] auto );
+	height: auto;
+    position: relative;
 }
 
 section#lilwayne {
@@ -508,7 +519,7 @@ h1 {
 /* block with slant line */
 
 .hero1 {
-    
+
     background-image: url(../images/marjan_blan-web9.jpg) !important;
     font-family: 'Chilanka', cursive;
     color: #fff;
@@ -750,13 +761,24 @@ ul {
 
 }
 
-.brandbar img {
+#brandbar img {
 
-	width: 35px;
-	height: 35px;
-	
+	width: 10vh;
+	height: 10vh;
+	margin: 10px;
+
 }
 
+
+@media (max-width: 680px) {
+
+	#brandbar img {
+
+			width: 55px !important;
+			height: 55px !important;
+
+		}
+}
 
 
 footer {
