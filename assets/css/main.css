@@ -186,9 +186,108 @@ nav form {
 	display: grid;
 	grid-gap: 5%;
 	grid-template-columns: repeat(12, [col] auto );
-	grid-template-rows: repeat(12, [row] auto );
+	grid-template-rows: repeat(1, [row] auto );
 	height: auto;
     position: relative;
+}
+
+.a {
+
+	grid-column: 1;
+	grid-row: 1;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.b {
+
+	grid-column: 2;
+	grid-row: 1;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.c {
+
+	grid-column: 3;
+	grid-row: 1;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.d {
+
+	grid-column: 4;
+	grid-row: 1;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+
+.e {
+
+	grid-column: 5;
+	grid-row: 1;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.f {
+
+	grid-column: 6;
+	grid-row: 1;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+
+.g {
+
+	grid-column: 7;
+	grid-row: 1;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.h {
+
+	grid-column: 8;
+	grid-row: 1;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.i {
+
+	grid-column: 9;
+	grid-row: 1;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.j {
+
+	grid-column: 10;
+	grid-row: 1;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+
+.k {
+
+	grid-column: 11;
+	grid-row: 1;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.l {
+
+	grid-column: 12;
+	grid-row: 1;
+	margin-right: auto;
+	margin-left: auto;
 }
 
 section#lilwayne {
