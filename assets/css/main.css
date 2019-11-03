@@ -599,7 +599,7 @@ svg {
     left: 0;
     position: absolute;
     right: 0;
-    transform: skewY(6deg);
+    transform: skewY(4deg);
     transform-origin: 100%;
     z-index: -1;
   }
@@ -642,7 +642,7 @@ h1 {
     left: 0;
     position: absolute;
     right: 0;
-    transform: skewY(-6deg);
+    transform: skewY(-4deg);
     transform-origin: 100%;
     z-index: -1;
   }
@@ -864,19 +864,19 @@ ul {
 
 #brandbar img {
 
-	width: 10vh;
-	height: 10vh;
+	width: 7vh;
+	height: 7vh;
 	margin: 10px;
 
 }
 
 
-@media (max-width: 680px) {
+@media (max-width: 320px) {
 
 	#brandbar img {
 
-			width: 55px !important;
-			height: 55px !important;
+			width: 3vh !important;
+			height: 3vh !important;
 
 		}
 }
