@@ -13,17 +13,27 @@ header, section, footer {
 
 }
 
+
+.carousel-item {
+  height: 100vh;
+  min-height: 350px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
 p {
 
 	margin-bottom: 2em;
 }
 
-/*
 
 header {
 
 	height: auto;
-	background:lightgreen;
+	background:rgba(128,0,0,.8);
 }
 
 @media all (min-width: 320px) {
@@ -62,7 +72,8 @@ nav form {
 	width: 32px;
 }
 
-*/
+
+/*
 
 header {
   position: relative;
@@ -112,6 +123,8 @@ header .overlay {
     display: none;
   }
 }
+
+*/
 
 #carusel {
 
