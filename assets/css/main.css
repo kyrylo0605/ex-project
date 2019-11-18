@@ -635,6 +635,7 @@ svg {
 section.pricing {
   background: #007bff;
   background: linear-gradient(to right, maroon, #33AEFF);
+  font-family: Anton, sans-serif;
 }
 
 .pricing .card {
@@ -646,11 +647,13 @@ section.pricing {
 
 .pricing hr {
   margin: 1.5rem 0;
+  font-family: Anton, sans-serif;
 }
 
 .pricing .card-title {
   margin: 0.5rem 0;
   font-size: 0.9rem;
+  font-family: Anton, sans-serif;
   letter-spacing: .1rem;
   font-weight: bold;
 }
@@ -666,6 +669,7 @@ section.pricing {
 
 .pricing ul li {
   margin-bottom: 1rem;
+  font-weight: 200;
 }
 
 .pricing .text-muted {
