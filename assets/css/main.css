@@ -38,7 +38,7 @@ p {
 header {
 
 	height: auto;
-	background:rgba(128,0,0,.8);
+	background:#dae0e5;
 }
 
 @media all (min-width: 320px) {
@@ -1033,4 +1033,84 @@ footer {
 	padding-left: 2em;
 	padding-right: 2em;
 	margin-bottom: auto;
+}
+
+
+
+
+
+.qw {
+width:auto;
+background-color:#e5e5e5;
+height:820px;	
+font-family: Arial,sans-serif;
+}
+fieldset {
+border:none;	
+}
+label {
+float:left;
+display: block;
+width:120px;
+font-weight::bold;
+}
+input {
+	float:left;
+	width:180px;
+	-moz-border-radius: 1px;
+	border-radius:1px;	
+	margin-bottom:10px;
+}
+select {
+	float:left;
+	width:180px;
+	-moz-border-radius: 1px;
+	border-radius:1px;	
+	margin-bottom:10px;
+}
+.legal {
+width:90%;
+margin-left:auto;
+margin-right:auto;
+margin-bottom:15px;
+}
+.submit {
+width:80%;
+margin-right:auto;
+margin-left:auto;
+}
+.submit input {
+	width:80%;
+	height:30px;
+	margin-left:auto;
+	margin-right:auto;
+	background-color:#000;
+	color:white;
+}
+
+.subject {
+margin-top:20px;
+margin-bottom:10px;
+font-size:2rem;
+font-weight:bold;
+}
+.vehiclesubject {
+float:left;
+width:100%;	
+margin-top:10px;
+margin-bottom:10px;
+font-size:16px;
+font-weight:bold;
+}
+.hrow {
+float:left;
+width:100%;	
+margin-top:5px;
+font-size:16px;
+font-weight:bold;
+}
+#topimage {
+	background-image:url('http://services.titleloandocs.com/img/application/app_top_default.png');
+	height:125px;
+	visibility:visible;
 }
