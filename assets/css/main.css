@@ -561,10 +561,10 @@ section + section {
 	background: moccasin;
 	padding-left: 2em;
 	padding-right: 2em;
-	border-top-left-radius:20em 10em;
-	border-top-right-radius: 20em 10em;
-	border-bottom-right-radius:20em 10em;
-	border-bottom-left-radius:20em 10em;
+	border-top-left-radius:20vh 10vh;
+	border-top-right-radius: 20vh 10vh;
+	border-bottom-right-radius:20vh 10vh;
+	border-bottom-left-radius:20vh 10vh;
 
 }
 
