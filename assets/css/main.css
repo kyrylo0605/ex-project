@@ -4,8 +4,9 @@
 
 @import url('https://fonts.googleapis.com/css?family=Dancing+Script');
 @import url('https://fonts.googleapis.com/css?family=Chilanka|Permanent+Marker&display=swap');
-
-
+@import url('https://fonts.googleapis.com/css?family=Gotham+Rail+Company+NF');
+@import url('https://fonts.googleapis.com/css?family=Nanum+Gothic+Coding&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Calistoga&display=swap');
 
 
 header, section, footer {
@@ -143,12 +144,14 @@ header .overlay {
 
 	background:url(../images/colin-watts-stone-08-opasity.jpg);
 	mask-image: linear-gradient(to right; white, transparent) !important;
-	font-family: 'Permanent Marker', cursive;
+	font-family: 'Nanum Gothic Coding', monospace;
 	font-weight: 500 !important;
 	font-size:80% !important;
 	color: #fff;
 
 }
+
+/*'Permanent Marker'*/
 
 #house-color img{
 
@@ -184,7 +187,7 @@ header .overlay {
 
 	height: auto;
 	background:lightyellow;
-	font-weight: 500;
+	font-weight: 600;
 }
 
 #overl svg {
@@ -561,12 +564,17 @@ section + section {
 	background: moccasin;
 	padding-left: 2em;
 	padding-right: 2em;
-	border-top-left-radius:20vh 10vh;
-	border-top-right-radius: 20vh 10vh;
-	border-bottom-right-radius:20vh 10vh;
-	border-bottom-left-radius:20vh 10vh;
+	border-radius: 50%/100px 100px 0 0;
 
 }
+
+
+/*border-top-left-radius:20vh 10vh;         
+	border-top-right-radius: 20vh 10vh;
+	border-bottom-right-radius:20vh 10vh;
+	border-bottom-left-radius:20vh 10vh;*/
+
+
 
 
 
@@ -601,9 +609,10 @@ section + section {
 body {
 	margin: 0;
 	font: 100%/1.2 sans-serif;
-	font-family: 'Dancing Script', cursive;
+	font-family: 'Dancing Script', cursive;   /* 'Dancing Script' */
 	font-size: 1.8rem !important;
 	background: lightsalmon;
+	font-weight: 600;
 
 }
 
@@ -653,7 +662,7 @@ svg {
 section.pricing {
   background: #007bff;
   background: linear-gradient(to right, maroon, #33AEFF);
-  font-family: Anton, sans-serif;
+  font-family: Arial, sans-serif;
 }
 
 .pricing .card {
@@ -665,13 +674,13 @@ section.pricing {
 
 .pricing hr {
   margin: 1.5rem 0;
-  font-family: Anton, sans-serif;
+  font-family: Arial, sans-serif;
 }
 
 .pricing .card-title {
   margin: 0.5rem 0;
   font-size: 0.9rem;
-  font-family: Anton, sans-serif;
+  font-family: Arial, sans-serif;
   letter-spacing: .1rem;
   font-weight: bold;
 }
@@ -688,6 +697,7 @@ section.pricing {
 .pricing ul li {
   margin-bottom: 1rem;
   font-weight: 200;
+  font-size:1.5rem;
 }
 
 .pricing .text-muted {
@@ -722,7 +732,7 @@ section.pricing {
 
 .hero {
     background-image: url(../images/stone-texture-1920.jpg) !important;
-    font-family: Montserrat, sans-serif;
+    font-family: 'Gotham Rail Company NF', sans-serif;
     color: #fff;
     position: relative;
     z-index: 1;
